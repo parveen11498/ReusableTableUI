@@ -9,10 +9,10 @@ const App = () => {
     <div className="App">
   
  <BrowserRouter>
-        {/* <Screen1 /> */}
+        
         <Routes> 
      
-         
+         <Route path='/' element={<Screen1/>} />
                    <Route path='/screen2' element={<Screen2/>} />
                    <Route path='/screen1' element={<Screen1/>} />
         
