@@ -1,0 +1,97 @@
+/* CSS for ReusableTableComponent */
+
+.table-container {
+    margin-top: 20px;
+  }
+  
+  .table-container input[type="text"] {
+    margin-bottom: 10px;
+    padding: 5px;
+  }
+  
+  .table-container table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .table-container th,
+  .table-container td {
+    padding: 8px;
+    border: 1px solid #ccc;
+  }
+  
+  .table-container th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+  
+  .table-container th input[type="text"] {
+    margin-left: 5px;
+    width: 80px;
+  }
+  
+  .table-container th button {
+    margin-left: 5px;
+    padding: 5px 10px;
+    font-size: 14px;
+    background-color: #f2f2f2;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .table-container th button:hover {
+    background-color: #ddd;
+  }
+  
+  .table-container tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .table-container tbody tr:hover {
+    background-color: #ddd;
+  }
+  
+  .table-container .pagination {
+    margin-top: 10px;
+  }
+  
+  .table-container .pagination button {
+    margin-right: 5px;
+    padding: 5px 10px;
+    font-size: 14px;
+    background-color: #f2f2f2;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .table-container .pagination button:hover {
+    background-color: #ddd;
+  }
+  
+  .table-container .refresh-button {
+    margin-top: 10px;
+    padding: 5px 10px;
+    font-size: 14px;
+    background-color: #f2f2f2;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .table-container .refresh-button:hover {
+    background-color: #ddd;
+    background-color:pink;
+    margin-right:10px;
+    margin-left:10px;
+    padding:10px;
+   
+  }
+  .screen1, screen2{
+    background-color:pink;
+    margin-right:10px;
+    margin-left:10px;
+    padding:10px;
+    text-decoration:none;
+  }
+  .link{
+    text-decoration:none;
+  }

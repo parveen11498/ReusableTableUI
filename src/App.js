@@ -1,25 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from 'react';
+import Screen1 from './Screen1';
+import Screen2 from './Screen2';
+import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 
-function App() {
+
+const App = () => {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+  
+ <BrowserRouter>
+        {/* <Screen1 /> */}
+        <Routes> 
+     
+         
+                   <Route path='/screen2' element={<Screen2/>} />
+                   <Route path='/screen1' element={<Screen1/>} />
+        
+                </Routes>
+</BrowserRouter>
+
+     
     </div>
   );
-}
+};
 
 export default App;
+
